@@ -27,15 +27,31 @@ import image24 from "./photos/24.png";
 import image25 from "./photos/25.png";
 import image26 from "./photos/26.png";
 import image27 from "./photos/27.png";
-import image28 from "./photos/28.jpeg";
-import image29 from "./photos/29.jpeg";
 import image30 from "./photos/30.jpeg";
 import image31 from "./photos/31.jpeg";
-import image32 from "./photos/32.jpeg";
 import image33 from "./photos/33.jpeg";
+import image34 from "./photos/34.jpg";
+import image35 from "./photos/35.jpg";
+import image36 from "./photos/36.png";
+import image37 from "./photos/37.jpg";
+import image38 from "./photos/38.jpg";
+import image39 from "./photos/39.jpg";
+import image40 from "./photos/40.jpg";
+import image41 from "./photos/41.jpg";
+import image42 from "./photos/42.jpg";
+import image43 from "./photos/43.jpg";
+import image44 from "./photos/44.jpg";
+import image45 from "./photos/45.jpg";
+import image46 from "./photos/46.jpg";
+import image47 from "./photos/47.jpg";
+import image48 from "./photos/48.png";
+import image49 from "./photos/49.jpg";
+import image50 from "./photos/50.jpg";
+import image51 from "./photos/51.jpg";
+import image52 from "./photos/52.jpg";
 
 function App() {
-  const randomImageNumber = Math.floor(Math.random() * (33 - 1 + 1) + 1);
+  const randomImageNumber = Math.floor(Math.random() * (52 - 1 + 1) + 1);
   console.log(`image${randomImageNumber.toString()}`);
 
   const imageList = [
@@ -66,12 +82,28 @@ function App() {
     image25,
     image26,
     image27,
-    image28,
-    image29,
     image30,
     image31,
-    image32,
     image33,
+    image34,
+    image35,
+    image36,
+    image37,
+    image38,
+    image39,
+    image40,
+    image41,
+    image42,
+    image43,
+    image44,
+    image45,
+    image46,
+    image47,
+    image48,
+    image49,
+    image50,
+    image51,
+    image52,
   ];
 
   const imageToDisplay = imageList[randomImageNumber - 1];
