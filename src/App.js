@@ -1,5 +1,3 @@
-import "./App.css";
-
 import image1 from "./photos/1.png";
 import image2 from "./photos/2.png";
 import image3 from "./photos/3.png";
@@ -52,7 +50,6 @@ import image52 from "./photos/52.jpg";
 
 function App() {
   const randomImageNumber = Math.floor(Math.random() * (52 - 1 + 1) + 1);
-  console.log(`image${randomImageNumber.toString()}`);
 
   const imageList = [
     image1,
